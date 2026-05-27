@@ -16,5 +16,5 @@ EEPROM_CONFIG_HOOK=
 # AB_EEPROM can be set here to override auto-detection of AB EEPROM support
 #AB_EEPROM=
 
-# If STRICT_MIN_VER_CHECK is set to 1 to treat bootloader manufacture min-version checks as a fatal error.
+# Set STRICT_MIN_VER_CHECK to 1 to treat bootloader manufacture min-version checks as a fatal error
 STRICT_MIN_VER_CHECK=0

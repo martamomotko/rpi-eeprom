@@ -298,9 +298,9 @@ applyRecoveryUpdate()
          warn
          warn "WARNING: EEPROM manufacture version (${image_boot_ver}) is older than the board manufacture version (${MIN_BOOT_VER})."
          warn
-	 if [ "${STRICT_MIN_VER_CHECK}" = 1 ]; then
-	    die "ERROR: Update image is not supported by this device. Exiting."
-	 fi
+         if [ "${STRICT_MIN_VER_CHECK}" = 1 ]; then
+            die "ERROR: Update image is not supported by this device. Exiting."
+         fi
       fi
    fi
 
